@@ -59,6 +59,7 @@ int main(int argc, char** argv) {
 
 	
 	//cv::Ptr<Distance> distance = new Distance(images,images_names,string(argv[1]));
+	//pair images[i] and images[j]
 	cv::Ptr<Distance> distance = new Distance(images[0],images[5]);
 
 	
